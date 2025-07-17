@@ -1,0 +1,155 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "890efbe1-e65c-497b-9062-b42f3524c32e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Create an empty list and take 5 numbers as input from the user. Append each number to the list and display the final list.\n",
+    "l=[]\n",
+    "a=int(input(\"Enter a : \"))\n",
+    "b=int(input(\"Enter b : \"))\n",
+    "c=int(input(\"Enter c : \"))\n",
+    "d=int(input(\"Enter d : \"))\n",
+    "e=int(input(\"Enter e : \"))\n",
+    "\n",
+    "l.append(a)\n",
+    "l.append(b)\n",
+    "l.append(c)\n",
+    "l.append(d)\n",
+    "l.append(e)\n",
+    "print(l)\n",
+    "   "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c71465d6-cea8-4acb-823d-c929c915cf29",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Create two lists: list1 = [1, 2, 3] and list2 = [4, 5, 6]. Extend list1 using list2 and print the updated list.\n",
+    "list1 = [1, 2, 3]\n",
+    "list2 = [4, 5, 6]\n",
+    "list1.extend(list2)\n",
+    "print(list1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cee58d44-a37b-40f3-90e4-6e5f0a15022d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Insert the value 25 at index 2 in the list: l = [10, 20, 30, 40].\n",
+    "l = [10, 20, 30, 40]\n",
+    "l.insert(2,25)\n",
+    "print(l)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3815416b-2e3a-4416-9dc5-7fa00f2fa8f1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Remove the first occurrence of the value 20 from the list: l = [10, 20, 30, 20, 40].\n",
+    "l = [10, 20, 30, 20, 40]\n",
+    "l.remove(20)\n",
+    "print(l)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f36806fc-a144-457c-a1e4-dd514b1b9e90",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Pop the last element from the list [1, 2, 3, 4, 5] and display both the popped item and the updated list.\n",
+    "l = [10, 20, 30, 20, 40]\n",
+    "l.pop(-1)\n",
+    "print(l)\n",
+    "print(l.pop())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f3192dd2-282e-4cf5-a377-b62633c1cb8f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Find and print the index of the element 15 in the list [5, 10, 15, 20, 25].\n",
+    "l = [5,10,15,20,25]\n",
+    "l.index(15)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b2dd4eb7-f816-4473-87a9-1664f41d4f18",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Count how many times the number 2 appears in the list [1, 2, 2, 3, 2, 4, 2].\n",
+    "l=[1, 2, 2, 3, 2, 4, 2]\n",
+    "l.count(2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d66e9757-fd96-4c28-8ce3-73bbf166ce42",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Sort the list [10, 5, 7, 3] in both ascending and descending order.\n",
+    "l=[10, 5, 7, 3]\n",
+    "l.sort()\n",
+    "print(l)\n",
+    "l.reverse()\n",
+    "print(l)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "07f7dc4e-98e9-4cef-a83b-f7c86db81127",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Reverse the list [1, 2, 3, 4, 5] using the reverse() method.\n",
+    "l=[1, 2, 3, 4, 5]\n",
+    "l.reverse()\n",
+    "print(l)"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
